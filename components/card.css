@@ -1,0 +1,56 @@
+.card-product {
+  margin-top: 30px;
+  background-color: white;
+  height: 500px;
+  width: 500px;
+  padding: 20px;
+}
+
+
+.card-product .card-product-top img.product-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.card-product .card-product-top {
+  display: flex;
+  position: relative;
+  gap: 10px;
+}
+
+.card-product .card-product-top .button {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background-color: green;
+}
+
+.card-product .card-product-top .like {
+  position: absolute;
+  color: red;
+  font-size: 20px;
+  top: -10px;
+}
+
+.card-product-center {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-product-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+}
+
+.card-product-bottom img {
+  width: 30%;
+  object-fit: cover;
+  object-position: center;
+}

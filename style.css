@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Montserrat:wght@400;700");
 
 @import url("components/container.css");
+@import url("components/card.css");
 
 /* --- Fonts --- */
 body {
@@ -9,6 +10,7 @@ body {
   padding-bottom: 200px;
   margin: 0;
   background: #e0fa80;
+  min-height: 100vh;
 }
 
 h1,
